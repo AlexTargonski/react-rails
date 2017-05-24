@@ -1,0 +1,208 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+	
+body{
+	background-image: url(http://p1.pichost.me/i/11/1344899.jpg);
+}
+.container {
+  margin-top: 20px;
+}
+
+.sortable {
+  cursor: pointer;
+}
+
+input[type="text"]{
+	font-size: 18px;
+}
+
+i:hover{
+	cursor: pointer;
+}
+/*** List Styles **/
+
+ul{
+	list-style: none;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+li{ 
+    display: block;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	margin: 10px 0 10px 0;
+	background-color: #FFFFFF;
+	opacity: 0.7;
+	border:1px;
+-webkit-box-shadow: 11px 14px 4px -7px rgba(0,0,0,0.17);
+-moz-box-shadow: 11px 14px 4px -7px rgba(0,0,0,0.17);
+box-shadow: 11px 14px 4px -7px rgba(0,0,0,0.17);
+overflow: hidden;
+cursor: pointer;
+}
+
+.finished{
+     text-decoration: line-through;
+}
+
+h2{
+	font-size: 20px;
+	
+}
+
+.list-header{
+	height: 50px;
+}
+
+.form-control{
+	margin: 10px 5px 20px 5px;
+}
+
+.item{
+    overflow: hidden;
+    white-space: nowrap;
+}
+/** Flat input **/
+.form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-sm {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.form-group-sm .form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-lg {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.form-group-lg .form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group-addon {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group-addon.input-sm {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group-addon.input-lg {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+/** buttons **/
+
+.div-container{border-top:3px solid #428BCA;border-right:3px solid #D9534F;border-bottom:3px solid #5CB85C;border-left:3px solid #F0AD4E;margin:30px;border-radius:20px 20px 0px 0px}
+.div-heading{border-bottom:1px dashed #5BC0DE;padding-top:15px;padding-bottom:15px;margin:0px;background-color:#F5F5F5;border-radius:19px 19px 0px 0px}
+.heading{color:#5FC9E5}
+.div-content{padding:30px}
+.btn-lg
+{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+.btn-xl
+{
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+button {
+	margin: 0;
+};
+
+.btn{transition:all 0.8s;-o-transition:all 0.8s;-moz-transition:all 0.8s;-webkit-transition:all 0.8s;border-radius:0px; margin-left: 5px; margin-bottom: 10px;}
+.btn-rounded{border-radius:50px}
+.btn-round-tosquare:hover{border-radius:0px}
+.btn-square-toround:hover{border-radius:50px}
+.btn-bordered-primary{color:#428BCA;background:none;border:2px solid #428BCA}
+.btn-bordered-primary:hover{color:#FFFFFF;background:#428BCA;}
+.btn-bordered-success{color:#5CB85C;background:none;border:2px solid #5CB85C}
+.btn-bordered-success:hover{color:#FFFFFF;background:#5CB85C;}
+.btn-bordered-info{color:#5BC0DE;background:none;border:2px solid #5BC0DE}
+.btn-bordered-info:hover{color:#FFFFFF;background:#5BC0DE;}
+.btn-bordered-warning{color:#F0AD4E;background:none;border:2px solid #F0AD4E}
+.btn-bordered-warning:hover{color:#FFFFFF;background:#F0AD4E;}
+.btn-bordered-danger{color:#D9534F;background:none;border:2px solid #D9534F}
+.btn-bordered-danger:hover{color:#FFFFFF;background:#D9534F;}
+
